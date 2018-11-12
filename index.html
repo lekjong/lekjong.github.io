@@ -2,14 +2,59 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Lekjong的首页</title>
+<title>Insert title here</title>
+
+<style type="text/css" >   /*CSS滤镜效果*/
+
+img {filter:progid:DXImageTransform.Microsoft.BasicImage(grayScale=1, mirror=0 , opacity=1.0, XRay=0);
+     border:thin;color: blue;
+}
+
+#Imgtext {
+     border: #00f solid 1px;
+     position:absolute;
+     width:400px;
+     height: 200px;
+}
+
+#Pimg{
+     float:left;
+}
+
+#Ptext{
+    font-family:monospace;
+    text-decoration: overline;   /* 对文字进行修饰   */
+}
+
+#lable{
+      position: absolute;
+      top:10px;
+      left:10px;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<font color="red">我的主页！！！！</font><br/>
+<div id="Imgtext">
 
-<Img src = "/bird.jpg"/>
+<div id="Pimg">
+<img src="imagines/Penguins.jpg" height="200" width="200"  border="0" alt="欢迎" title="欢迎" class="penguins"/>
+</div>
 
+<div id="Ptext" >
+<font color="red">企鹅（学名：Spheniscidae）：有“海洋之舟”美称的企鹅是一种最古老的游禽，它们很可能在地球穿上冰甲之前，就已经在南极安家落户。
+全世界的企鹅共有18种，大多数都分布在南半球。主要生活在南半球，属于企鹅目，企鹅科。
+</font>
+</div>
 
+<div id="lable">
+<font color="blue">
+企鹅
+</font>
+</div>
+</div>
 </body>
 </html>
